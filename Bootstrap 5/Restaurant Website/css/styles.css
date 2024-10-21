@@ -14,6 +14,7 @@
 :focus {
   outline: 0 !important;
   outline-offset: 0;
+  /* box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);  */
 }
 
 a,
@@ -54,6 +55,35 @@ body {
   font-size: 100%;
   font-weight: 400;
 }
+
+/*
+=========================================
+    More Generalized Settings for Future
+
+=========================================
+
+/* body {
+  font-family: var(--primary-font);
+  font-size: 1rem;  This is equivalent to 100% and ensures responsiveness 
+  font-weight: 400;
+  line-height: 1.6; Improves readability by increasing line spacing 
+  color: var(--text-color); /* Custom text color variable 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--secondry-font); /* Use the secondary font for headings 
+  font-weight: 700; /* Make headings bold 
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem; /* Adds space between paragraphs 
+} 
+
+*/
+
+
+
 
 /*
 =========================================
@@ -191,7 +221,9 @@ p {
   left:0;
   z-index:1000;
   -webkit-transition:all 0.3s ease-out;
-  transition:all 0.3s ease-out;
+  transition:all 0.3s ease-out; 
+
+
 } 
 
 .logo_brand{
